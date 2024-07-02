@@ -12,8 +12,7 @@ export default function () {
 		input    : 'input.js',
 		output   : {
 			name                 : 'RollupPatternfly',
-			dir                  : 'dist',
-			file                 : 'patternfly.min.js',
+			file                 : 'dist/patternfly.min.js',
 			format               : 'umd',
 			inlineDynamicImports : true,
 			globals              : {
