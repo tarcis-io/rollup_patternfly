@@ -1,0 +1,27 @@
+{
+	"name"            : "rollup_patternfly",
+	"version"         : "0.0.1",
+	"description"     : "Patternfly design system rolled up",
+	"scripts"         : {
+		"build" : "rollup --config rollup.mjs"
+	},
+	"dependencies"    : {
+		"@patternfly/react-charts" : "alpha",
+		"@patternfly/react-core"   : "alpha",
+		"@patternfly/react-icons"  : "alpha",
+		"@patternfly/react-styles" : "alpha",
+		"@patternfly/react-tokens" : "alpha",
+		"react"                    : "latest",
+		"react-dom"                : "latest"
+	},
+	"devDependencies" : {
+		"@rollup/plugin-commonjs"     : "latest",
+		"@rollup/plugin-node-resolve" : "latest",
+		"@rollup/plugin-replace"      : "latest",
+		"@rollup/plugin-terser"       : "latest",
+		"rollup"                      : "latest",
+		"rollup-plugin-scss"          : "latest",
+		"rollup-plugin-svg"           : "latest",
+		"sass"                        : "latest"
+	}
+}
