@@ -13,7 +13,7 @@ export default function () {
 		output   : {
 			name                 : 'RollupPatternfly',
 			file                 : 'dist/patternfly.min.js',
-			format               : 'umd',
+			format               : 'esm',
 			inlineDynamicImports : true,
 			globals              : {
 				'react'     : 'React',
